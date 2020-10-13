@@ -1,0 +1,103 @@
+#our-inspiration{
+    align-items: center;
+    text-align: center;
+}
+.directors-message{
+    align-items: center;
+    text-align: center;
+}
+/* .admission{
+    right: 0;
+    bottom: 30%;
+    width: 10vw;
+    border: 1px solid grey;
+    border-radius: 13px;
+    text-align: center;
+    justify-content: center;
+    position: ;
+} */
+.personal-chat {
+    background: skyblue;
+    padding: 2px 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: fixed;
+    top: 10%;
+    right: 0;
+    font-size: 1rem;
+    /* margin: 1em; */
+    justify-content: center;
+    text-align: center;
+    /* z-index: -1; */
+}
+
+.personal-chat:hover{
+    font-weight: bold;
+    color: white;
+    background: rgb(199, 199, 189);
+    border: 3px solid rgb(4, 4, 34);
+    transform: rotateZ(60deg);
+    transform-style: preserve-3d;
+}
+.cfooter{
+    text-align: center;
+}
+.w3l-social{
+text-align: center;
+margin-top: 1.5em;
+}
+.w3l-social ul li{
+    display: inline-block;
+}
+
+.w3l-social ul li a{
+    margin: 0 1em;
+    font-size: 16px;
+    color: red;
+}
+
+.our-classes{
+    display: flex;
+    flex-wrap: wrap;
+    background: url("https://source.unsplash.com/900x600/?classroom") center center/cover no-repeat;
+    justify-content: center;
+}
+
+#heading{
+    align-items: center;
+    text-align: center;
+    background: whitesmoke;
+    margin: 0px;
+    padding: 5px 0;
+}
+
+.our-features{
+    display: flex;
+    justify-content: center;
+    background: rgb(255, 255, 254);
+}
+
+.our-faculty{
+    display: flex;
+    justify-content: center;
+}
+
+.about-us h2{
+    color: blue;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.demo-lectures{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.demo-lectures div{
+    width: 30%;
+    height: 30vh;
+
+}
